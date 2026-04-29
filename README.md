@@ -6,6 +6,12 @@ A lightweight animated smoke layer for any HTML container using Canvas 2D.
 - Supports wind, turbulence, tint, and density controls.
 - Uses viewport and document visibility observers to avoid wasted frames.
 
+[![npm](https://img.shields.io/npm/v/smoke-layer.svg?colorB=brightgreen)](https://www.npmjs.com/package/smoke-layer)
+[![GitHub package version](https://img.shields.io/github/package-json/v/ux-ui-pro/smoke-layer.svg)](https://github.com/ux-ui-pro/smoke-layer)
+[![NPM Downloads](https://img.shields.io/npm/dm/smoke-layer.svg?style=flat)](https://www.npmjs.org/package/smoke-layer)
+
+[Demo](https://codepen.io/ux-ui/pen/oNOaLyx)
+
 ## Install
 
 ```bash
@@ -58,7 +64,7 @@ import { SmokeLayer } from 'smoke-layer';
 import type { SmokeLayerOptions } from 'smoke-layer';
 ```
 
-## Vue 3 (short example)
+## Vue 3
 
 ```ts
 import { onBeforeUnmount, onMounted, ref, shallowRef } from 'vue';
