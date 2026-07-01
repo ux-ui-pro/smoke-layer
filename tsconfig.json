@@ -1,27 +1,4 @@
 {
-  "compilerOptions": {
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "target": "ES2022",
-    "module": "ESNext",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "bundler",
-    "noImplicitAny": true,
-    "lib": ["ES2022", "DOM"],
-    "rootDir": ".",
-    "outDir": "dist",
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true
-  },
-  "files": [
-    "src/index.ts",
-    "src/SmokeLayer.ts",
-    "vite-env.d.ts",
-    "vite.config.ts"
-  ],
-  "include": ["src/**/*.ts", "vite-env.d.ts", "vite.config.ts"]
+  "extends": "@ux-ui/tsconfig-base/tsconfig.json",
+  "include": ["src", "tsdown.config.ts"]
 }
