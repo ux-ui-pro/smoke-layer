@@ -1,6 +1,6 @@
 {
   "name": "smoke-layer",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "A lightweight animated smoke layer for HTML elements using Canvas 2D",
   "author": "ux-ui.pro",
   "license": "MIT",
